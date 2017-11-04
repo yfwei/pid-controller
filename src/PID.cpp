@@ -43,6 +43,6 @@ void PID::UpdateError(double cte)
 
 double PID::TotalError()
 {
-  return (p_error + i_error + d_error);
+  return -p_error - i_error - d_error;
 }
 
