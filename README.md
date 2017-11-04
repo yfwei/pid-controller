@@ -24,7 +24,7 @@ My final P, I, D coefficients are *0.12, 0.005, 1.7*. They are chosen empiricall
 1. Initialize P and D coefficients with very small values and set I coefficient to 0.0.
 2. Increase the P coefficient to ensure the vehicle can make the turn.
 3. If the vehicle starts oscillating, increase the D coefficient until there is no oscillation.
-4. Repeat the step 2 and 3 until the vehicle can drive the track.
+4. Repeat the step 2 and 3 until the vehicle can drive around the track.
 5. Increase the I coefficient until the vehicle can drive on the center of the lane.
 
 The following rule governs how I tune them:
